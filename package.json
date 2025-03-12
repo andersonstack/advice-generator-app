@@ -1,0 +1,15 @@
+{
+  "name": "advice-generator-app",
+  "version": "1.0.0",
+  "description": "Aplicativo que gera conselhos a partir de uma API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "advice",
+    "app"
+  ],
+  "author": "andersonstack",
+  "license": "ISC"
+}
