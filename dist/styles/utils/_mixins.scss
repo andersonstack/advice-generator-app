@@ -1,0 +1,10 @@
+@mixin aply-font(
+  $font-size,
+  $font-weight,
+  $font-family: "Red Hat Display",
+  $color: $font-color-primary
+) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  font-family: $font-family, sans-serif;
+}
