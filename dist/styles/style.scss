@@ -1,16 +1,26 @@
 @use "./utils/root" as *;
 @use "./utils/mixins" as *;
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 body {
   @include display-flex(column);
   background-color: $secondary-color;
+  overflow: hidden;
 }
 
 nav {
   @include display-flex(row, flex-start, flex-start);
   position: inherit;
   width: 100%;
-  height: 30vh;
+  height: 25vh;
   padding: 2rem;
   margin-left: 5rem;
 }
@@ -27,6 +37,31 @@ nav {
   position: relative;
   width: 50vw;
   height: 50vh;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid $font-color-primary;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 10vw;
+    height: 200vh;
+    background-color: $font-color-primary;
+    animation: rotate 6s linear infinite;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-color: $secondary-color;
+    inset: 5px;
+    border-radius: inherit;
+  }
+
+  * {
+    position: relative;
+    z-index: 1;
+  }
 }
 
 .main__div {
