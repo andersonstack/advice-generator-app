@@ -104,6 +104,7 @@ menu,
 nav,
 section {
   display: block;
+  font-family: "Red Hat Display", sans-serif;
 }
 body {
   line-height: 1;
