@@ -8,10 +8,6 @@ export class PhraseView {
     `;
     }
     render(id, advice) {
-        const oldParagraph = this.$(".main__paragraph");
-        setTimeout(() => {
-            oldParagraph.classList.add("main__paragraph-remove");
-        }, 1000);
         this.$(".main__paragraph").innerHTML = this.template(id, advice);
     }
 }
