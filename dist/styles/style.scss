@@ -1,18 +1,14 @@
 @use "./utils/root" as *;
+@use "./utils/mixins" as *;
 
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  @include display-flex(column);
   background-color: $secondary-color;
 }
 
 nav {
+  @include display-flex(row, flex-start, flex-start);
   position: inherit;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
   width: 100%;
   height: 30vh;
   padding: 2rem;
@@ -20,16 +16,11 @@ nav {
 }
 
 .nav__title {
-  font-size: 2rem;
-  color: $font-color-primary;
+  @include aply-font(2rem, 900);
 }
 
 .main-div-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  gap: 1rem;
+  @include display-flex(column, center, space-around);
   background-color: $secondary-color;
   padding: 1rem;
   border-radius: 1rem;
@@ -39,11 +30,7 @@ nav {
 }
 
 .main__div {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  justify-content: space-between;
-  align-items: center;
+  @include display-flex(row, center, space-between);
   width: 100%;
   padding: 1rem;
 }
@@ -58,15 +45,9 @@ nav {
   width: 6rem;
   height: 4rem;
   border: 1rem solid transparent;
-  background-color: black;
+  background-color: $font-color-primary;
 }
 
 .main__paragraph {
-  font-size: 2rem;
-  color: $font-color-primary;
-}
-
-.main__title {
-  font-size: 1rem;
-  color: $font-color-primary;
+  @include aply-font(2rem, 500);
 }
