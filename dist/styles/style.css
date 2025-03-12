@@ -71,6 +71,7 @@ nav {
   position: relative;
   overflow: hidden;
   border: 1px solid #002333;
+  align-items: center;
 }
 .main-div-body::before {
   content: "";
@@ -108,12 +109,22 @@ nav {
 }
 
 .main__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
   border-radius: 100%;
   width: 6rem;
   height: 4rem;
   border: 1rem solid transparent;
   background-color: #002333;
   cursor: pointer;
+}
+
+.button__text {
+  font-size: 1.5rem;
+  color: white;
 }
 
 .main__paragraph {
