@@ -53,8 +53,8 @@ nav {
 
 .main__button {
   border-radius: 100%;
-  width: auto;
-  height: 100%;
+  width: 6rem;
+  height: 4rem;
   border: 1rem solid transparent;
   background-color: black;
 }
