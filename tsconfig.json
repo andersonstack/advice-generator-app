@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "rootDir": "src/",
+    "outDir": "dist/js/",
+    "noEmitOnError": true,
+    "removeComments": true
+  },
+  "include": ["src/**/*"]
+}

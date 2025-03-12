@@ -93,6 +93,7 @@ nav {
   height: 4rem;
   border: 1rem solid transparent;
   background-color: #002333;
+  cursor: pointer;
 }
 
 .main__paragraph {
