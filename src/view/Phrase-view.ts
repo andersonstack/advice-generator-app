@@ -5,11 +5,15 @@ export class PhraseView {
 
   private template(id: number, advice: string) {
     return `
-        <p class="main__paragraph" id="${id}">"${advice}"</p>
+        <p class="main__paragraph main__paragraph-animation" id="${id}">"${advice}"</p>
     `;
   }
 
   public render(id: number, advice: string) {
+    const oldParagraph: HTMLParagraphElement = this.$(".main__paragraph");
+    setTimeout(() => {
+      oldParagraph.classList.add("main__paragraph-remove");
+    }, 1000);
     this.$(".main__paragraph")!.innerHTML = this.template(id, advice);
   }
 }
