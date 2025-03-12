@@ -1,13 +1,11 @@
 export class PhraseView {
-    constructor(id, advice) {
+    constructor() {
         this.$ = document.querySelector.bind(document);
-        this.id = id;
-        this.advice = advice;
     }
-    template() {
+    template(id, advice) {
         return `
-      <div class="main-div-body">
-        <p class="main__paragraph">"${this.advice}"</p>
+      <div class="main-div-body" id="${id}">
+        <p class="main__paragraph">"${advice}"</p>
         <div class="main__div">
           <hr class="line" />
           <button class="main__button" id="main__button">
@@ -18,7 +16,7 @@ export class PhraseView {
       </div>
     `;
     }
-    render() {
-        this.$.querySelector(".main").innerHTML = this.template();
+    render(id, advice) {
+        this.$.querySelector(".main").innerHTML = this.template(id, advice);
     }
 }

@@ -7,17 +7,20 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+import { PhraseView } from "../view/Phrase-view.js";
 export class Phrase {
     static getPhrase() {
         return __awaiter(this, void 0, void 0, function* () {
             try {
-                const responde = yield fetch("https://api.adviceslip.com/advice");
-                const data = yield responde.json();
+                const response = yield fetch("https://api.adviceslip.com/advice");
+                const data = yield response.json();
                 const phraseData = {
                     id: data.slip.id,
                     advice: data.slip.advice,
                 };
                 this.phrase = [phraseData];
+                const phraseView = new PhraseView();
+                phraseView.render(this.phrase[0].id, this.phrase[0].advice);
                 return this.phrase;
             }
             catch (error) {
