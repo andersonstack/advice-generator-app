@@ -1,6 +1,7 @@
 @use "./utils/root" as *;
 @use "./utils/mixins" as *;
 @use "./animation/animation" as *;
+@use "./media/mobile" as *;
 
 body {
   @include display-flex(column);
@@ -11,7 +12,7 @@ body {
 nav {
   @include display-flex(row, flex-start, flex-start);
   position: inherit;
-  width: 100%;
+  width: 100vw;
   height: 25vh;
   padding: 2rem;
   margin-left: 5rem;
@@ -106,22 +107,57 @@ nav {
 
 .bg-1 {
   top: 70%;
-  left: -10%;
+  left: calc(70% * -0.1);
+  width: calc(10vw + 12.5rem);
 }
 
 .bg-2 {
   top: 10%;
-  left: 10%;
+  left: calc(10% * 0.9);
   transform: rotate(-60deg);
+  width: calc(10vw + 18.75rem);
 }
 
 .bg-3 {
   top: 72%;
-  right: 15%;
+  right: calc(72% * 0.156);
+  width: calc(10vw + 12.5rem);
 }
 
 .bg-4 {
-  top: 10%;
-  right: -5%;
-  width: 700px;
+  top: 16%;
+  right: calc(5% * 0.25);
+  width: calc(10vw + 25rem);
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    margin-left: 1rem;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+  }
+
+  .main-div-body {
+    width: 80vw;
+  }
+
+  .bg-2,
+  .bg-3 {
+    display: none;
+  }
+
+  .bg-4 {
+    top: 20%;
+    right: calc(5% * 1);
+    width: calc(10vw + 25rem);
+  }
+
+  .bg-1 {
+    transform: rotate(80deg);
+    left: calc(70% * 1);
+    top: 75%;
+  }
 }

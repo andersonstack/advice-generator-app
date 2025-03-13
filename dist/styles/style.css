@@ -26,6 +26,21 @@
     transform: translateY(1.5rem);
   }
 }
+@media screen and (max-width: 400px) {
+  body {
+    display: flex;
+    align-items: center;
+  }
+  .bg-2,
+  .bg-3 {
+    display: none;
+  }
+  .bg-4 {
+    top: 50%;
+    right: 1.25%;
+    width: calc(10vw + 25rem);
+  }
+}
 body {
   display: flex;
   flex-direction: column;
@@ -43,7 +58,7 @@ nav {
   justify-content: flex-start;
   gap: 1rem;
   position: inherit;
-  width: 100%;
+  width: 100vw;
   height: 25vh;
   padding: 2rem;
   margin-left: 5rem;
@@ -153,22 +168,52 @@ nav {
 
 .bg-1 {
   top: 70%;
-  left: -10%;
+  left: -7%;
+  width: calc(10vw + 12.5rem);
 }
 
 .bg-2 {
   top: 10%;
-  left: 10%;
+  left: 9%;
   transform: rotate(-60deg);
+  width: calc(10vw + 18.75rem);
 }
 
 .bg-3 {
   top: 72%;
-  right: 15%;
+  right: 11.232%;
+  width: calc(10vw + 12.5rem);
 }
 
 .bg-4 {
-  top: 10%;
-  right: -5%;
-  width: 700px;
+  top: 16%;
+  right: 1.25%;
+  width: calc(10vw + 25rem);
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    margin-left: 1rem;
+  }
+  body {
+    display: flex;
+    align-items: center;
+  }
+  .main-div-body {
+    width: 80vw;
+  }
+  .bg-2,
+  .bg-3 {
+    display: none;
+  }
+  .bg-4 {
+    top: 20%;
+    right: 5%;
+    width: calc(10vw + 25rem);
+  }
+  .bg-1 {
+    transform: rotate(80deg);
+    left: 70%;
+    top: 75%;
+  }
 }/*# sourceMappingURL=style.css.map */
