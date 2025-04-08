@@ -11,7 +11,7 @@ export class Phrase {
       const response = await fetch("../../assets/phrases.json");
       const frases: { id: number; frase: string }[] = await response.json();
 
-      const idPhrase = Math.floor(Math.random() * (100 - 0 + 1) + 0);
+      const idPhrase = Math.floor(Math.random() * 101);
 
       const phraseData: phraseInterface = {
         id: frases[idPhrase].id,
@@ -25,7 +25,7 @@ export class Phrase {
 
       return this.phrase;
     } catch (error) {
-      console.log(`Error getting phrase from API: ${error}`);
+      console.log(`Error getting phrase from JSON: ${error}`);
       return [];
     }
   }

@@ -14,7 +14,7 @@ export class Phrase {
             try {
                 const response = yield fetch("../../assets/phrases.json");
                 const frases = yield response.json();
-                const idPhrase = Math.floor(Math.random() * (100 - 0 + 1) + 0);
+                const idPhrase = Math.floor(Math.random() * 101);
                 const phraseData = {
                     id: frases[idPhrase].id,
                     advice: frases[idPhrase].frase,
@@ -25,7 +25,7 @@ export class Phrase {
                 return this.phrase;
             }
             catch (error) {
-                console.log(`Error getting phrase from API: ${error}`);
+                console.log(`Error getting phrase from JSON: ${error}`);
                 return [];
             }
         });
