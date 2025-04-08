@@ -1,0 +1,402 @@
+{
+  "1": {
+    "id": 5379,
+    "frase": "Com grandes poderes vêm grandes responsabilidades."
+  },
+  "2": {
+    "id": 7305,
+    "frase": "A linha de comando não perdoa, mas ensina."
+  },
+  "3": {
+    "id": 3461,
+    "frase": "Nada como um erro para ensinar uma lição valiosa."
+  },
+  "4": {
+    "id": 4671,
+    "frase": "Quem domina o terminal, domina o universo."
+  },
+  "5": {
+    "id": 6669,
+    "frase": "Quem nunca chorou por um ponto e vírgula, não programou."
+  },
+  "6": {
+    "id": 9642,
+    "frase": "Pensar computacionalmente muda sua visão de mundo."
+  },
+  "7": {
+    "id": 2503,
+    "frase": "Desenvolver é resolver problemas criativamente."
+  },
+  "8": {
+    "id": 8614,
+    "frase": "Persistência compila sucesso."
+  },
+  "9": {
+    "id": 5736,
+    "frase": "A curiosidade é o combustível do aprendizado."
+  },
+  "10": {
+    "id": 9341,
+    "frase": "Pensar como computador é arte."
+  },
+  "11": {
+    "id": 5915,
+    "frase": "Deu erro? Parabéns, você está programando!"
+  },
+  "12": {
+    "id": 6601,
+    "frase": "Automatizar é amar o futuro."
+  },
+  "13": {
+    "id": 3062,
+    "frase": "Comando dado, shell obedecido."
+  },
+  "14": {
+    "id": 8405,
+    "frase": "A mente que se abre ao novo nunca volta ao tamanho original."
+  },
+  "15": {
+    "id": 6040,
+    "frase": "Bash: onde os comandos ganham vida."
+  },
+  "16": {
+    "id": 3244,
+    "frase": "Versão 1.0 é só o começo."
+  },
+  "17": {
+    "id": 2201,
+    "frase": "Depurar é meditar com propósito."
+  },
+  "18": {
+    "id": 8353,
+    "frase": "Se funciona, não mexa. Se não funciona, também não."
+  },
+  "19": {
+    "id": 1780,
+    "frase": "Seu código é um reflexo da sua clareza mental."
+  },
+  "20": {
+    "id": 6230,
+    "frase": "Enquanto compila, a gente filosofa."
+  },
+  "21": {
+    "id": 7430,
+    "frase": "Code. Sleep. Repeat."
+  },
+  "22": {
+    "id": 8150,
+    "frase": "Toda linguagem é uma filosofia disfarçada."
+  },
+  "23": {
+    "id": 6053,
+    "frase": "Refatorar é viver."
+  },
+  "24": {
+    "id": 3847,
+    "frase": "Cuidado com loops infinitos na vida real."
+  },
+  "25": {
+    "id": 4393,
+    "frase": "Stack Overflow é meu co-piloto."
+  },
+  "26": {
+    "id": 8751,
+    "frase": "Shell script é poesia automatizada."
+  },
+  "27": {
+    "id": 5465,
+    "frase": "Aprender é conectar pontos, não decorar passos."
+  },
+  "28": {
+    "id": 8494,
+    "frase": "Nada é tão simples quanto parece no Stack Overflow."
+  },
+  "29": {
+    "id": 7892,
+    "frase": "Criatividade é o melhor algoritmo."
+  },
+  "30": {
+    "id": 3759,
+    "frase": "Se não entendeu, tente explicar para alguém."
+  },
+  "31": {
+    "id": 8814,
+    "frase": "Não é bug, é feature!"
+  },
+  "32": {
+    "id": 6568,
+    "frase": "Comentário de código também é código."
+  },
+  "33": {
+    "id": 6248,
+    "frase": "A prática leva à perfeição."
+  },
+  "34": {
+    "id": 5950,
+    "frase": "O terminal é seu melhor amigo."
+  },
+  "35": {
+    "id": 1453,
+    "frase": "Cada erro é um passo rumo ao domínio."
+  },
+  "36": {
+    "id": 1693,
+    "frase": "Se não entendeu, é porque está funcionando."
+  },
+  "37": {
+    "id": 4497,
+    "frase": "O sistema é você que cria."
+  },
+  "38": {
+    "id": 9218,
+    "frase": "Nada substitui o bom e velho print."
+  },
+  "39": {
+    "id": 1509,
+    "frase": "A lógica não falha, quem falha é o programador."
+  },
+  "40": {
+    "id": 4600,
+    "frase": "Aprendizado vem do caos do erro."
+  },
+  "41": {
+    "id": 8164,
+    "frase": "Nada é tão simples quanto parece no Stack Overflow."
+  },
+  "42": {
+    "id": 9540,
+    "frase": "Pensar como computador é arte."
+  },
+  "43": {
+    "id": 6933,
+    "frase": "Depurar é meditar com propósito."
+  },
+  "44": {
+    "id": 2910,
+    "frase": "Shell script é poesia automatizada."
+  },
+  "45": {
+    "id": 1460,
+    "frase": "A mente que se abre ao novo nunca volta ao tamanho original."
+  },
+  "46": {
+    "id": 7979,
+    "frase": "O terminal é seu melhor amigo."
+  },
+  "47": {
+    "id": 5821,
+    "frase": "A lógica não falha, quem falha é o programador."
+  },
+  "48": {
+    "id": 5989,
+    "frase": "Se não entendeu, é porque está funcionando."
+  },
+  "49": {
+    "id": 4001,
+    "frase": "Se funciona, não mexa. Se não funciona, também não."
+  },
+  "50": {
+    "id": 6825,
+    "frase": "Desenvolver é resolver problemas criativamente."
+  },
+  "51": {
+    "id": 1364,
+    "frase": "Stack Overflow é meu co-piloto."
+  },
+  "52": {
+    "id": 3967,
+    "frase": "Nada como um erro para ensinar uma lição valiosa."
+  },
+  "53": {
+    "id": 4030,
+    "frase": "Deu erro? Parabéns, você está programando!"
+  },
+  "54": {
+    "id": 9842,
+    "frase": "Toda linguagem é uma filosofia disfarçada."
+  },
+  "55": {
+    "id": 4801,
+    "frase": "Pensar computacionalmente muda sua visão de mundo."
+  },
+  "56": {
+    "id": 8653,
+    "frase": "Quem domina o terminal, domina o universo."
+  },
+  "57": {
+    "id": 3822,
+    "frase": "A linha de comando não perdoa, mas ensina."
+  },
+  "58": {
+    "id": 1814,
+    "frase": "Code. Sleep. Repeat."
+  },
+  "59": {
+    "id": 6862,
+    "frase": "Automatizar é amar o futuro."
+  },
+  "60": {
+    "id": 3440,
+    "frase": "O sistema é você que cria."
+  },
+  "61": {
+    "id": 2521,
+    "frase": "Comando dado, shell obedecido."
+  },
+  "62": {
+    "id": 3239,
+    "frase": "Persistência compila sucesso."
+  },
+  "63": {
+    "id": 7421,
+    "frase": "Não é bug, é feature!"
+  },
+  "64": {
+    "id": 3583,
+    "frase": "Com grandes poderes vêm grandes responsabilidades."
+  },
+  "65": {
+    "id": 4820,
+    "frase": "Cada erro é um passo rumo ao domínio."
+  },
+  "66": {
+    "id": 8126,
+    "frase": "Seu código é um reflexo da sua clareza mental."
+  },
+  "67": {
+    "id": 2629,
+    "frase": "Quem nunca chorou por um ponto e vírgula, não programou."
+  },
+  "68": {
+    "id": 1333,
+    "frase": "Enquanto compila, a gente filosofa."
+  },
+  "69": {
+    "id": 6833,
+    "frase": "Bash: onde os comandos ganham vida."
+  },
+  "70": {
+    "id": 5613,
+    "frase": "Refatorar é viver."
+  },
+  "71": {
+    "id": 6062,
+    "frase": "Comentário de código também é código."
+  },
+  "72": {
+    "id": 1485,
+    "frase": "Aprendizado vem do caos do erro."
+  },
+  "73": {
+    "id": 3815,
+    "frase": "A curiosidade é o combustível do aprendizado."
+  },
+  "74": {
+    "id": 2769,
+    "frase": "Se não entendeu, tente explicar para alguém."
+  },
+  "75": {
+    "id": 6606,
+    "frase": "A prática leva à perfeição."
+  },
+  "76": {
+    "id": 8327,
+    "frase": "Nada substitui o bom e velho print."
+  },
+  "77": {
+    "id": 1267,
+    "frase": "Aprender é conectar pontos, não decorar passos."
+  },
+  "78": {
+    "id": 9955,
+    "frase": "Criatividade é o melhor algoritmo."
+  },
+  "79": {
+    "id": 1250,
+    "frase": "Cuidado com loops infinitos na vida real."
+  },
+  "80": {
+    "id": 1403,
+    "frase": "Versão 1.0 é só o começo."
+  },
+  "81": {
+    "id": 1317,
+    "frase": "Refatorar é viver."
+  },
+  "82": {
+    "id": 5365,
+    "frase": "Deu erro? Parabéns, você está programando!"
+  },
+  "83": {
+    "id": 9286,
+    "frase": "Nada é tão simples quanto parece no Stack Overflow."
+  },
+  "84": {
+    "id": 6422,
+    "frase": "Se não entendeu, é porque está funcionando."
+  },
+  "85": {
+    "id": 5402,
+    "frase": "Aprender é conectar pontos, não decorar passos."
+  },
+  "86": {
+    "id": 8403,
+    "frase": "Shell script é poesia automatizada."
+  },
+  "87": {
+    "id": 6257,
+    "frase": "Pensar como computador é arte."
+  },
+  "88": {
+    "id": 8730,
+    "frase": "Aprendizado vem do caos do erro."
+  },
+  "89": {
+    "id": 7696,
+    "frase": "Se funciona, não mexa. Se não funciona, também não."
+  },
+  "90": {
+    "id": 4531,
+    "frase": "Pensar computacionalmente muda sua visão de mundo."
+  },
+  "91": {
+    "id": 3001,
+    "frase": "Bash: onde os comandos ganham vida."
+  },
+  "92": {
+    "id": 4637,
+    "frase": "A curiosidade é o combustível do aprendizado."
+  },
+  "93": {
+    "id": 2638,
+    "frase": "Seu código é um reflexo da sua clareza mental."
+  },
+  "94": {
+    "id": 5115,
+    "frase": "Stack Overflow é meu co-piloto."
+  },
+  "95": {
+    "id": 6153,
+    "frase": "Code. Sleep. Repeat."
+  },
+  "96": {
+    "id": 4878,
+    "frase": "Quem domina o terminal, domina o universo."
+  },
+  "97": {
+    "id": 8639,
+    "frase": "Cuidado com loops infinitos na vida real."
+  },
+  "98": {
+    "id": 8147,
+    "frase": "Criatividade é o melhor algoritmo."
+  },
+  "99": {
+    "id": 1923,
+    "frase": "O terminal é seu melhor amigo."
+  },
+  "100": {
+    "id": 8750,
+    "frase": "O sistema é você que cria."
+  }
+}
