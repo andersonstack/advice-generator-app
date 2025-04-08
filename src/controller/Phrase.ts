@@ -8,12 +8,14 @@ export class Phrase {
 
   public static async getPhrase(): Promise<ReadonlyArray<phraseInterface>> {
     try {
-      const response = await fetch("https://api.adviceslip.com/advice");
-      const data = await response.json();
+      const response = await fetch("../../assets/phrases.json");
+      const frases: { id: number; frase: string }[] = await response.json();
+
+      const idPhrase = Math.floor(Math.random() * (100 - 0 + 1) + 0);
 
       const phraseData: phraseInterface = {
-        id: data.slip.id,
-        advice: data.slip.advice,
+        id: frases[idPhrase].id,
+        advice: frases[idPhrase].frase,
       };
 
       this.phrase = [phraseData];

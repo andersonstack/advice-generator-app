@@ -12,11 +12,12 @@ export class Phrase {
     static getPhrase() {
         return __awaiter(this, void 0, void 0, function* () {
             try {
-                const response = yield fetch("https://api.adviceslip.com/advice");
-                const data = yield response.json();
+                const response = yield fetch("../../assets/phrases.json");
+                const frases = yield response.json();
+                const idPhrase = Math.floor(Math.random() * (100 - 0 + 1) + 0);
                 const phraseData = {
-                    id: data.slip.id,
-                    advice: data.slip.advice,
+                    id: frases[idPhrase].id,
+                    advice: frases[idPhrase].frase,
                 };
                 this.phrase = [phraseData];
                 const phraseView = new PhraseView();
