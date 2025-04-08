@@ -4,7 +4,10 @@
     "rootDir": "src/",
     "outDir": "js",
     "noEmitOnError": true,
-    "removeComments": true
+    "removeComments": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true
   },
   "include": ["src/**/*"]
 }
