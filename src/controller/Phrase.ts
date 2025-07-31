@@ -8,7 +8,7 @@ export class Phrase {
 
   public static async getPhrase(): Promise<ReadonlyArray<phraseInterface>> {
     try {
-      const response = await fetch("../../assets/phrases.json");
+      const response = await fetch("./assets/phrases.json");
       const frases: { id: number; frase: string }[] = await response.json();
 
       const idPhrase = Math.floor(Math.random() * 101);

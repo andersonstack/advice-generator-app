@@ -12,7 +12,7 @@ export class Phrase {
     static getPhrase() {
         return __awaiter(this, void 0, void 0, function* () {
             try {
-                const response = yield fetch("../../assets/phrases.json");
+                const response = yield fetch("./assets/phrases.json");
                 const frases = yield response.json();
                 const idPhrase = Math.floor(Math.random() * 101);
                 const phraseData = {
